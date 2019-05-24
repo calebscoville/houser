@@ -12,4 +12,4 @@ export default (
       <Route component={ClassList} path="/classlist/:class" />
       <Route component={Student} path="/student/:id" /> */}
     </Switch>
-  );
+  )

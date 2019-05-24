@@ -25,4 +25,4 @@ app.use(
 
 app.listen(SERVER_PORT, () => {
   console.log(`Michelle is beautiful on ${SERVER_PORT}.`);
-});
+})
