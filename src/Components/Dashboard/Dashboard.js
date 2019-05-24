@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import axios from 'axios'
-import House from '../House'
+// import axios from 'axios'
+// import House from './House'
 
 class Dashboard extends Component {
     render() {
         return (
-           <div>
-           <Dashboard /> 
-           <House />
-           </div>
+            <div className="Dashboard">
+            {/* <div className="House"></div> */}
+            </div>
+          
+           
         )
     }
 }

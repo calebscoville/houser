@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+// import axios from 'axios'
 import './App.css';
 import Dashboard from './Components/Dashboard/Dashboard'
 import Header from './Components/Header/Header'
@@ -10,10 +10,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Dashboard />
+      <div className="Dashboard">
+        <h1>Hello Caleb. I have a present for you:)</h1>
+      </div>
+      <div className="Header"></div>
+      <div className="House"></div>
+      <div className="Wizard"></div>
+        {/* <Dashboard />
         <Header />
         <House />
-        <Wizard />
+        <Wizard /> */}
       </header>
     </div>
   );
