@@ -8,3 +8,5 @@ class House extends Component {
         )
     }
 }
+
+export default House;
